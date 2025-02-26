@@ -2,8 +2,24 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div>
+    <div className="min-h-screen">
       <main>
+        <div className="grid grid-cols-6 gap-4">
+            <div>Create and schedule content quicker.</div>
+            <div>
+                <span>Social Media 10x Faster with AI</span>
+                <span>Over 4,000 5-star reviews</span>
+            </div>
+            <div>
+                <span>  Schedule to social media.</span>
+                <span>Optimize post timings to publish content at the perfect time for your audience.</span>
+            </div>
+            <div>Manage multiple accounts and platforms.</div>
+            <div>Maintain a consistent posting schedule.</div>
+            <div>Write your content using AI.</div>
+            <div>56% faster audience growth</div>
+            <div>Grow followers with non-stop content.</div>
+        </div>
       </main>
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
         <a
