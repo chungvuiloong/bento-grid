@@ -3,9 +3,9 @@ import Card from "./components/Card";
 
 export default function Home() {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen bg-gray-100">
       <main className="mx-auto container px-4">
-        <div className="bg-gray-100 grid grid-flow-row-dense grid-cols-3 grid-rows-3 gap-4">
+        <div className=" grid grid-flow-row-dense grid-cols-3 grid-rows-3 gap-4">
             <Card className=" bg-Yellow-100 row-start-1 row-span-5">Create and schedule content quicker.</Card>
             <Card className="bg-Yellow-500 row-start-6 row-span-5">Write your content using AI.</Card> 
             <Card className="bg-Purple-500 row-start-1 row-span-4 col-span-2 text-White">
