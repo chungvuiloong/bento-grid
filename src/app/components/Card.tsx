@@ -7,7 +7,7 @@ interface CardProps {
 
 const Card = ({ children, className }: CardProps) => {
   return (
-    <div className={className}>
+    <div className={`rounded-md ${className?.includes('col-span-1') ? 'max-w-[300px]' : 'max-w-[616px]'}  ${className}`}>
       {children}
     </div>
   );
