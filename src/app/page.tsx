@@ -59,8 +59,8 @@ export default function Home() {
                 </div>
                 <Image src={People_Img} alt="AI icon" width={200} height={200} className="" />
             </Card>
-            <Card className="p-5 bg-Purple-500 col-span-2 row-span-3 text-White flex flex-row gap-5">
-                <Image src={Follower_Img} alt="AI icon" width={200} height={200} className="" />
+            <Card className="p-5 bg-Purple-500 col-span-2 row-span-3 text-White flex flex-row">
+                <Image src={Follower_Img} alt="AI icon" width={170} height={200} className="" />
                 <p className="text-3xl leading-7 font-medium self-center">
                     Grow followers with non-stop content.
                 </p>
