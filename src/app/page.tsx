@@ -15,15 +15,15 @@ export default function Home() {
       <main className="mx-auto container px-4">
         <div className="inline-grid grid-flow-row-dense grid-cols-3 grid-rows-3 gap-5" style={{ grid: "none"}}>
             <Card className=" px-5 bg-Yellow-100 row-start-1 row-span-5 col-span-1 flex flex-col gap-5 justify-center">
-                <p className="text-3xl leading-7 font-medium">
+                <h2>
                     <span>Create and schedule content</span>
                     <br/>
                     <span className="text-Purple-500 italic">quicker.</span>
-                </p>
+                </h2>
                 <Image src={Create_img} alt="AI icon" width={200} height={200} className="" />
             </Card>
             <Card className="pl-5 pt-5 pb-6 pr-[7px] bg-Yellow-500 row-start-6 row-span-5 col-span-1 flex flex-col gap-10 justify-between">
-                <p className="text-3xl leading-7 font-medium">Write your content using AI.</p>
+                <h2>Write your content using AI.</h2>
                 <Image src={Chat_Img} alt="AI icon" width={200} height={200} className="" />
             </Card> 
             <Card className="px-8 py-10 bg-Purple-500 row-start-1 row-span-4 col-span-2 text-White text-center items-center flex flex-col gap-5">            
@@ -63,9 +63,9 @@ export default function Home() {
             </Card>
             <Card className="p-5 bg-Purple-500 col-span-2 row-span-3 text-White flex flex-row">
                 <Image src={Follower_Img} alt="AI icon" width={170} height={200} className="" />
-                <p className="text-3xl leading-7 font-medium self-center">
+                <h2 className="self-center">
                     Grow followers with non-stop content.
-                </p>
+                </h2>
             </Card>
         </div>
         {/* <div className="grid grid-flow-col grid-rows-10 gap-4">
