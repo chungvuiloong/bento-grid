@@ -5,6 +5,7 @@ import Chat_Img from "../../public/assets/images/illustration-ai-content.webp"
 import Create_img from "../../public/assets/images/illustration-create-post.webp"
 import Follower_Img from "../../public/assets/images/illustration-grow-followers.webp"
 import People_Img from "../../public/assets/images/illustration-audience-growth.webp"
+import Schedule_Img from "../../public/assets/images/illustration-schedule-posts.webp"
 import Social_Media_Img from "../../public/assets/images/illustration-multiple-platforms.webp"
 import Star_Review_Img from "../../public/assets/images/illustration-five-stars.webp"
 
@@ -48,9 +49,10 @@ export default function Home() {
                 </p>
                 <Image src={Calendar_img} alt="AI icon" width={400} height={400} className="" />
             </Card> 
-            <Card className="pl-5 bg-Purple-100 row-start-1 row-span-7 col-span-1">
+            <Card className="pl-5 bg-Purple-100 row-start-1 row-span-7 col-span-1 flex flex-col gap-4 justify-center overflow-hidden">
                 <p className="text-2xl leading-6 font-medium">Schedule to social media.</p>
-                <span>Optimize post timings to publish content at the perfect time for your audience.</span>
+                <Image src={Schedule_Img} alt="AI icon" width={400} height={400} className="max-w-[300px]" />
+                <p className="leading-5">Optimize post timings to publish content at the perfect time for your audience.</p>
             </Card>
             <Card className="px-5 py-7 bg-White col-span-1 row-span-3 flex flex-col justify-between">
                 <div className="flex flex-col gap-5">                
