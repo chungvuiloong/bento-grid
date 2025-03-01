@@ -48,8 +48,8 @@ export default function Home() {
                 </p>
                 <Image src={Calendar_img} alt="AI icon" width={400} height={400} className="" />
             </Card> 
-            <Card className="bg-Purple-100 row-start-1 row-span-7 col-span-1">
-                <span>Schedule to social media.</span>
+            <Card className="pl-5 bg-Purple-100 row-start-1 row-span-7 col-span-1">
+                <p className="text-2xl leading-6 font-medium">Schedule to social media.</p>
                 <span>Optimize post timings to publish content at the perfect time for your audience.</span>
             </Card>
             <Card className="px-5 py-7 bg-White col-span-1 row-span-3 flex flex-col justify-between">
