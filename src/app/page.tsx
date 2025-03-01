@@ -3,6 +3,7 @@ import Card from "./components/Card";
 import Chat_Img from "../../public/assets/images/illustration-ai-content.webp"
 import Create_img from "../../public/assets/images/illustration-create-post.webp"
 import People_Img from "../../public/assets/images/illustration-audience-growth.webp"
+import Social_Media_Img from "../../public/assets/images/illustration-multiple-platforms.webp"
 import Star_Review_Img from "../../public/assets/images/illustration-five-stars.webp"
 
 export default function Home() {
@@ -35,7 +36,10 @@ export default function Home() {
                     <p>Over 4,000 5-star reviews</p>
                 </div>
             </Card>
-            <Card className="bg-White row-start-5 col-span-1 row-span-3">Manage multiple accounts and platforms.</Card>
+            <Card className="p-5 bg-White row-start-5 col-span-1 row-span-3 overflow-hidden flex flex-col gap-5">
+                <Image src={Social_Media_Img} alt="AI icon" width={400} height={400} className="max-w-[260px]" />
+                <p className="text-2xl leading-6 font-medium">Manage multiple accounts and platforms.</p>
+            </Card>
             <Card className="bg-Yellow-500 col-span-1 row-span-3">Maintain a consistent posting schedule.</Card> 
             <Card className="bg-Purple-100 row-start-1 row-span-7 col-span-1">
                 <span>Schedule to social media.</span>
