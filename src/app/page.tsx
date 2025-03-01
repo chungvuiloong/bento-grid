@@ -2,6 +2,7 @@ import Image from "next/image";
 import Card from "./components/Card";
 import Chat_Img from "../../public/assets/images/illustration-ai-content.webp"
 import People_Img from "../../public/assets/images/illustration-audience-growth.webp"
+import Star_Review_Img from "../../public/assets/images/illustration-five-stars.webp"
 
 export default function Home() {
   return (
@@ -13,9 +14,18 @@ export default function Home() {
                 <p className="text-3xl leading-7 font-medium">Write your content using AI.</p>
                 <Image src={Chat_Img} alt="AI icon" width={200} height={200} className="" />
             </Card> 
-            <Card className="bg-Purple-500 row-start-1 row-span-4 col-span-2 text-White">
-                <span>Social Media 10x Faster with AI</span>
-                <span>Over 4,000 5-star reviews</span>
+            <Card className="px-8 py-10 bg-Purple-500 row-start-1 row-span-4 col-span-2 text-White text-center items-center flex flex-col gap-5">            
+                <h1 className="text-5xl">
+                    <span>Social Media</span>{" "}<span>10x</span>
+                    <br/>
+                    <span className="italic">Faster</span>{" "}<span> with AI</span>
+                </h1>           
+                <div>                
+                    <div className="flex flex-row justify-center items-center">
+                    <Image src={Star_Review_Img} alt="AI icon" width={170} height={200} className="align-self-center" />
+                    </div>
+                    <p>Over 4,000 5-star reviews</p>
+                </div>
             </Card>
             <Card className="bg-White row-start-5 col-span-1 row-span-3">Manage multiple accounts and platforms.</Card>
             <Card className="bg-Yellow-500 col-span-1 row-span-3">Maintain a consistent posting schedule.</Card> 
