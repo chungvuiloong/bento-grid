@@ -30,13 +30,13 @@ export default function Home() {
                 <h1 className="text-5xl">
                     <span>Social Media</span>{" "}<span className="text-Yellow-500">10x</span>
                     <br/>
-                    <span className="italic">Faster</span>{" "}<span> with AI</span>
+                    <span className="italic font-bold">Faster</span>{" "}<span> with AI</span>
                 </h1>           
                 <div>                
                     <div className="flex flex-row justify-center items-center">
                     <Image src={Star_Review_Img} alt="AI icon" width={170} height={200} className="align-self-center" />
                     </div>
-                    <p className="text-White">Over 4,000 5-star reviews</p>
+                    <p className="text-White opacity-60">Over 4,000 5-star reviews</p>
                 </div>
             </Card>
             <Card className="p-5 bg-White row-start-5 col-span-1 row-span-3 overflow-hidden flex flex-col justify-between max-h-[220px] ">
@@ -56,7 +56,7 @@ export default function Home() {
             </Card>
             <Card className="px-5 py-7 bg-White col-span-1 row-span-3 flex flex-col justify-between max-h-[220px]">
                 <div className="flex flex-col gap-5">                
-                    <div className="text-5xl leading-7 font-medium">&gt;56%</div>
+                    <div className="text-5xl leading-7 font-bold">&gt;56%</div>
                     <p>faster audience growth</p>
                 </div>
                 <Image src={People_Img} alt="AI icon" width={200} height={200} className="" />

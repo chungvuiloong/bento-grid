@@ -23,6 +23,9 @@ export default {
         'White': 'hsl(0, 0%, 100%)',
         'Black': 'hsl(0, 0%, 7%)'
       },
+      fontFamily: {
+        custom: ['DM-Sans', 'sans-serif'],
+      },
     },
   },
   plugins: [],
