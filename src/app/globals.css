@@ -6,6 +6,9 @@
     h2 {
       @apply text-3xl leading-7 font-medium;
     }
+    h3 {
+        @apply text-2xl leading-6 font-medium;
+    }
     p {
       @apply font-medium;
     }

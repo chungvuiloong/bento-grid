@@ -41,16 +41,16 @@ export default function Home() {
             </Card>
             <Card className="p-5 bg-White row-start-5 col-span-1 row-span-3 overflow-hidden flex flex-col justify-between max-h-[200px]">
                 <Image src={Social_Media_Img} alt="AI icon" width={400} height={400} className="max-w-[246px] " />
-                <p className="text-2xl leading-6 font-medium">Manage multiple accounts and platforms.</p>
+                <h3>Manage multiple accounts and platforms.</h3>
             </Card>
             <Card className="px-5 pt-5 bg-Yellow-500 col-span-1 row-span-3 flex flex-col gap-3 justify-between overflow-hidden max-h-[200px]">
-                <p className="text-2xl leading-6 font-medium">
+                <h3>
                     Maintain a consistent posting schedule.
-                </p>
+                </h3>
                 <Image src={Calendar_img} alt="AI icon" width={400} height={400} className="" />
             </Card> 
             <Card className="pl-5 bg-Purple-100 row-start-1 row-span-7 col-span-1 flex flex-col gap-4 justify-center overflow-hidden">
-                <p className="text-2xl leading-6 font-medium">Schedule to social media.</p>
+                <h3>Schedule to social media.</h3>
                 <Image src={Schedule_Img} alt="AI icon" width={400} height={400} className="max-w-[300px]" />
                 <p className="leading-5">Optimize post timings to publish content at the perfect time for your audience.</p>
             </Card>
