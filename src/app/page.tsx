@@ -22,7 +22,7 @@ export default function Home() {
                 </p>
                 <Image src={Create_img} alt="AI icon" width={200} height={200} className="" />
             </Card>
-            <Card className="p-5 bg-Yellow-500 row-start-6 row-span-5 col-span-1 flex flex-col gap-10">
+            <Card className="pl-5 pt-5 pb-6 pr-[7px] bg-Yellow-500 row-start-6 row-span-5 col-span-1 flex flex-col gap-10 justify-between">
                 <p className="text-3xl leading-7 font-medium">Write your content using AI.</p>
                 <Image src={Chat_Img} alt="AI icon" width={200} height={200} className="" />
             </Card> 
