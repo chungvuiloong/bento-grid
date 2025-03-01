@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Card from "./components/Card";
 import Chat_Img from "../../public/assets/images/illustration-ai-content.webp"
+import Create_img from "../../public/assets/images/illustration-create-post.webp"
 import People_Img from "../../public/assets/images/illustration-audience-growth.webp"
 import Star_Review_Img from "../../public/assets/images/illustration-five-stars.webp"
 
@@ -9,7 +10,14 @@ export default function Home() {
     <div className="min-h-screen bg-gray-100">
       <main className="mx-auto container px-4">
         <div className=" grid grid-flow-row-dense grid-cols-3 grid-rows-3 gap-4">
-            <Card className=" px-5 bg-Yellow-100 row-start-1 row-span-5 col-span-1">Create and schedule content quicker.</Card>
+            <Card className=" px-5 bg-Yellow-100 row-start-1 row-span-5 col-span-1 flex flex-col gap-5 justify-center">
+                <p className="text-3xl leading-7 font-medium">
+                    <span>Create and schedule content</span>
+                    <br/>
+                    <span className="text-Purple-500 italic">quicker.</span>
+                </p>
+                <Image src={Create_img} alt="AI icon" width={200} height={200} className="" />
+            </Card>
             <Card className="p-5 bg-Yellow-500 row-start-6 row-span-5 col-span-1 flex flex-col gap-10">
                 <p className="text-3xl leading-7 font-medium">Write your content using AI.</p>
                 <Image src={Chat_Img} alt="AI icon" width={200} height={200} className="" />
