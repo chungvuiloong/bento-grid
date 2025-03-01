@@ -39,8 +39,8 @@ export default function Home() {
                     <p>Over 4,000 5-star reviews</p>
                 </div>
             </Card>
-            <Card className="p-5 bg-White row-start-5 col-span-1 row-span-3 overflow-hidden flex flex-col gap-5">
-                <Image src={Social_Media_Img} alt="AI icon" width={400} height={400} className="max-w-[260px]" />
+            <Card className="p-5 bg-White row-start-5 col-span-1 row-span-3 overflow-hidden flex flex-col justify-between max-h-[200px]">
+                <Image src={Social_Media_Img} alt="AI icon" width={400} height={400} className="max-w-[246px] " />
                 <p className="text-2xl leading-6 font-medium">Manage multiple accounts and platforms.</p>
             </Card>
             <Card className="px-5 pt-5 bg-Yellow-500 col-span-1 row-span-3 flex flex-col gap-3 justify-between overflow-hidden max-h-[200px]">
@@ -54,7 +54,7 @@ export default function Home() {
                 <Image src={Schedule_Img} alt="AI icon" width={400} height={400} className="max-w-[300px]" />
                 <p className="leading-5">Optimize post timings to publish content at the perfect time for your audience.</p>
             </Card>
-            <Card className="px-5 py-7 bg-White col-span-1 row-span-3 flex flex-col justify-between">
+            <Card className="px-5 py-7 bg-White col-span-1 row-span-3 flex flex-col justify-between max-h-[200px]">
                 <div className="flex flex-col gap-5">                
                     <p className="text-5xl leading-7 font-medium">&gt;56%</p>
                     <p>faster audience growth</p>
