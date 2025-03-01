@@ -3,6 +3,7 @@ import Card from "./components/Card";
 import Calendar_img from "../../public/assets/images/illustration-consistent-schedule.webp"
 import Chat_Img from "../../public/assets/images/illustration-ai-content.webp"
 import Create_img from "../../public/assets/images/illustration-create-post.webp"
+import Follower_Img from "../../public/assets/images/illustration-grow-followers.webp"
 import People_Img from "../../public/assets/images/illustration-audience-growth.webp"
 import Social_Media_Img from "../../public/assets/images/illustration-multiple-platforms.webp"
 import Star_Review_Img from "../../public/assets/images/illustration-five-stars.webp"
@@ -58,7 +59,12 @@ export default function Home() {
                 </div>
                 <Image src={People_Img} alt="AI icon" width={200} height={200} className="" />
             </Card>
-            <Card className="bg-Purple-500 col-span-2 row-span-3 text-White">Grow followers with non-stop content.</Card>
+            <Card className="p-5 bg-Purple-500 col-span-2 row-span-3 text-White flex flex-row gap-5">
+                <Image src={Follower_Img} alt="AI icon" width={200} height={200} className="" />
+                <p className="text-3xl leading-7 font-medium self-center">
+                    Grow followers with non-stop content.
+                </p>
+            </Card>
         </div>
         {/* <div className="grid grid-flow-col grid-rows-10 gap-4">
             <div className="bg-Yellow-100 row-start-1 row-span-5">Create and schedule content quicker.</div>
