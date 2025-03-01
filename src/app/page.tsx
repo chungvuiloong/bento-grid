@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Card from "./components/Card";
+import Calendar_img from "../../public/assets/images/illustration-consistent-schedule.webp"
 import Chat_Img from "../../public/assets/images/illustration-ai-content.webp"
 import Create_img from "../../public/assets/images/illustration-create-post.webp"
 import People_Img from "../../public/assets/images/illustration-audience-growth.webp"
@@ -40,7 +41,12 @@ export default function Home() {
                 <Image src={Social_Media_Img} alt="AI icon" width={400} height={400} className="max-w-[260px]" />
                 <p className="text-2xl leading-6 font-medium">Manage multiple accounts and platforms.</p>
             </Card>
-            <Card className="bg-Yellow-500 col-span-1 row-span-3">Maintain a consistent posting schedule.</Card> 
+            <Card className="px-5 pt-5 bg-Yellow-500 col-span-1 row-span-3 flex flex-col gap-3 justify-between overflow-hidden max-h-[200px]">
+                <p className="text-2xl leading-6 font-medium">
+                    Maintain a consistent posting schedule.
+                </p>
+                <Image src={Calendar_img} alt="AI icon" width={400} height={400} className="" />
+            </Card> 
             <Card className="bg-Purple-100 row-start-1 row-span-7 col-span-1">
                 <span>Schedule to social media.</span>
                 <span>Optimize post timings to publish content at the perfect time for your audience.</span>
