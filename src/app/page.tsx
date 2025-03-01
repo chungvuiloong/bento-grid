@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gray-100">
       <main className="mx-auto container px-4">
-        <div className=" grid grid-flow-row-dense grid-cols-3 grid-rows-3 gap-4">
+        <div className="inline-grid grid-flow-row-dense grid-cols-3 grid-rows-3 gap-4">
             <Card className=" px-5 bg-Yellow-100 row-start-1 row-span-5 col-span-1 flex flex-col gap-5 justify-center">
                 <p className="text-3xl leading-7 font-medium">
                     <span>Create and schedule content</span>
